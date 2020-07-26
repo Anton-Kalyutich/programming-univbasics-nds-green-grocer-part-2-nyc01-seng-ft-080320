@@ -30,6 +30,7 @@ def checkout(cart, coupons)
   cart = apply_clearance
   total_price = 0
   cart.each do |hash|
+    total_price = 
     
   
   
