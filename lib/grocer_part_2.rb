@@ -30,4 +30,5 @@ def checkout(cart, coupons)
   cart = apply_clearance
   
   
+  
 end
