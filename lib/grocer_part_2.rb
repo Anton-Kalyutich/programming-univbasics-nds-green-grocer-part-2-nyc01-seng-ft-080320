@@ -32,7 +32,7 @@ def checkout(cart, coupons)
   cart.each do |hash|
     total_price += hash[:price] * hash[:count]
   end
-  
+  if total_price > 100
     
   
   
